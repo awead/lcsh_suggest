@@ -1,3 +1,9 @@
 = LcshSuggest
 
-This project rocks and uses MIT-LICENSE.
+Adds a controller to your Rails app for searching Library of Congress subject headings.  A query string is passed to
+http://id.loc.gov/authorities/suggest and the results are parsed and returned as a JSON object. From there you
+can use the results to create a typeahead function in Javasciprt.
+
+= Status
+
+Tests are not passing at present, even though the dummy app within the Rails gem works correctly.
