@@ -7,12 +7,12 @@ module LcshSuggest
     
       it "should return nil if there's no query" do
         get :index, { :q => nil, :use_route => :lcsh_suggest }
-        @results.should be_nil
+        expect(assigns(:results)).to be_nil
       end
 
       it "should return a set of terms for a given query" do
         get :index, { :use_route => :lcsh_suggest, :q => "Blues" }
-        @results.should_not be_nil
+        expect(assigns(:results)).not_to be_nil
       end
     
     end
