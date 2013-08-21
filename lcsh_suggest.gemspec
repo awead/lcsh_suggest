@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.summary     = "Search Libary of Congress' subject headings"
   s.description = "Queries Library of Congress' subject heading search API and returns results in JSON."
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["spec/**/*"]
 
   s.add_dependency "rails", "~> 3.2.13"
