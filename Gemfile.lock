@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    lcsh_suggest (0.0.2)
+    lcsh_suggest (0.0.3)
       curb
       rails (~> 3.2.13)
 
