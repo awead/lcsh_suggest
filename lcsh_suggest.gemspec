@@ -12,6 +12,7 @@ Gem::Specification.new do |s|
   s.homepage    = "https://github.com/awead/lcsh_suggest"
   s.summary     = "Search Libary of Congress' subject headings"
   s.description = "Queries Library of Congress' subject heading search API and returns results in JSON."
+  s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["spec/**/*"]
